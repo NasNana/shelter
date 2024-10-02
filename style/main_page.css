@@ -1,7 +1,19 @@
+@font-face {
+    font-family: "Georgia";
+    src: url('/assets/fonts/Georgia/georgia.ttf');
+}
+@font-face {
+    font-family: "Arial";
+    src: url('/assets/fonts/Arial/arialmt.ttf');
+}
+
 * {
     max-width: 1280px;
+    font-family: 'Arial';
+}
+.container {
+    width: 1200px;
     margin: 0 auto;
-    font-family: "Open Sans", sans-serif;
 }
 a {
     text-decoration: none;
@@ -11,15 +23,17 @@ li {
 }
 
 /* !Header style */
-.main_page_header {
+.header_back {
     background: radial-gradient(#5B483A, #262425);
-    padding-top: 30px;
-    margin-bottom: 90px;
+}
+.main_page_header {
+    padding: 30px 0 90px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .main_page_header_title {
+    font-family: 'Georgia';
     font-size: 32px;
     color: #F1CDB3;
     text-shadow: 1px #000;
@@ -46,6 +60,34 @@ li {
     text-decoration: underline 3px #F1CDB3;
     text-underline-offset: 3px;
 }
+.header_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header_description_main {
+    font-family: 'Georgia';
+    font-size: 44px;
+    color: #fff;
+}
+.header_description_additional {
+ color: #CDCDCD;
+    font-size: 15px;
+    padding: 42px 0;
+}
+.header_description_button {
+    padding: 15px 45px;
+    background-color: #F1CDB3;
+    border: none;
+    border-radius: 100px;
+}
+.header_image{
+    background-color: transparent;
+}
+
+
+
 /* End of header style */
 
 
