@@ -9,6 +9,7 @@
 
 * {
     font-family: 'Arial';
+    color: #545454;
 }
 .container {
     width: 1200px;
@@ -85,8 +86,23 @@ li {
     background-color: transparent;
 }
 
-
-
 /* End of header style */
 
 
+/* ! About section */
+
+.about {
+    margin: 80px auto 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about_description {
+    max-width: 380px;
+}
+.secondary_title {
+    font-family: 'Georgia';
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 6%;
+}
