@@ -104,5 +104,26 @@ li {
     font-family: 'Georgia';
     font-size: 35px;
     line-height: 130%;
-    letter-spacing: 6%;
+}
+
+/* End of About section */
+.centered_title {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    
+}
+.pets_slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+}
+.pets_slider_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pets_slider_list_item {
+    margin-right: 90px;
 }
